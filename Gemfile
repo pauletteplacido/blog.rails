@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+#agregando annotate
+gem "annotate"
+
+gem "record_tag_helper", "~> 1.0"
 
 ruby "3.2.2"
 
